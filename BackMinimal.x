@@ -4,7 +4,8 @@
 %ctor {
     if (!PNBBool(PNB_KEY_BACK, YES)) return;
 
-    UIOffset off = UIOffsetMake(0, -100);
+    // 只把 title 横向推出可视区；不用任何垂直负值，chevron / 点击区 / 侧滑全不动
+    UIOffset off = UIOffsetMake(-1000, 0);
     UIBarMetrics m[] = {
         UIBarMetricsDefault,
         UIBarMetricsCompact,
@@ -15,5 +16,4 @@
         [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:off
                                                              forBarMetrics:m[i]];
     }
-    // 不换 leftBarButtonItem：原生 chevron、点击区、侧滑返回全保留
 }
