@@ -1,9 +1,0 @@
-Package: com.you.pillnback
-Name: PillNBack
-Version: 1.0.0
-Architecture: iphoneos-arm64e
-Maintainer: you
-Author: you
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader
-Description: Capsule volume HUD, minimal back button, lock corners, cover scale
