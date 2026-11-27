@@ -2,42 +2,72 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>entry</key>
+    <dict>
+        <key>cell</key>
+        <string>PSLinkCell</string>
+        <key>label</key>
+        <string>PillNBack</string>
+    </dict>
     <key>title</key>
     <string>PillNBack</string>
     <key>items</key>
     <array>
         <dict>
-            <key>cell</key><string>PSGroupCell</string>
-            <key>label</key><string>PillNBack</string>
-            <key>footerText</key><string>①③④ 改后 respring；② 重开设置即可。④ 默认关。</string>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>PillNBack</string>
+            <key>footerText</key>
+            <string>音量/锁屏/收起缩放改后 respring；极简返回键重开设置即可；收起缩放默认关。</string>
         </dict>
         <dict>
-            <key>cell</key><string>PSSwitchCell</string>
-            <key>label</key><string>胶囊音量条</string>
-            <key>defaults</key><string>com.you.pillnback</string>
-            <key>key</key><string>pillHUD</string>
-            <key>default</key><true/>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>胶囊音量条</string>
+            <key>defaults</key>
+            <string>com.you.pillnback</string>
+            <key>key</key>
+            <string>pillHUD</string>
+            <key>default</key>
+            <true/>
         </dict>
         <dict>
-            <key>cell</key><string>PSSwitchCell</string>
-            <key>label</key><string>极简返回键</string>
-            <key>defaults</key><string>com.you.pillnback</string>
-            <key>key</key><string>minimalBack</string>
-            <key>default</key><true/>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>极简返回键</string>
+            <key>defaults</key>
+            <string>com.you.pillnback</string>
+            <key>key</key>
+            <string>minimalBack</string>
+            <key>default</key>
+            <true/>
         </dict>
         <dict>
-            <key>cell</key><string>PSSwitchCell</string>
-            <key>label</key><string>锁屏连续圆角</string>
-            <key>defaults</key><string>com.you.pillnback</string>
-            <key>key</key><string>lockRound</string>
-            <key>default</key><true/>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>锁屏连续圆角</string>
+            <key>defaults</key>
+            <string>com.you.pillnback</string>
+            <key>key</key>
+            <string>lockRound</string>
+            <key>default</key>
+            <true/>
         </dict>
         <dict>
-            <key>cell</key><string>PSSwitchCell</string>
-            <key>label</key><string>通知中心收起缩放</string>
-            <key>defaults</key><string>com.you.pillnback</string>
-            <key>key</key><string>coverScale</string>
-            <key>default</key><false/>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>通知中心收起缩放</string>
+            <key>defaults</key>
+            <string>com.you.pillnback</string>
+            <key>key</key>
+            <string>coverScale</string>
+            <key>default</key>
+            <false/>
         </dict>
     </array>
 </dict>
